@@ -1,5 +1,5 @@
-#ifndef RP_SPORTS_BOW_NPC_HOLDER_H
-#define RP_SPORTS_BOW_NPC_HOLDER_H
+#ifndef RP_SPORTS_BOW_NPC_MANAGER_H
+#define RP_SPORTS_BOW_NPC_MANAGER_H
 #include "types_RP.h"
 #include "IRPSysHostIOSocket.h"
 #include "RPBowNPC.h"
@@ -8,7 +8,7 @@
  * @brief Stores and manages all 6 Bowling NPCs
  * @customname
  */
-class RPBowNPCHolder : public IRPSysHostIOSocket
+class RPBowNPCManager : public IRPSysHostIOSocket
 {
 public:
     /**
@@ -21,9 +21,9 @@ public:
     //! @address 80332a68
     void InitNPCs(UNKWORD, UNKWORD);
     //! @address 80332b34
-    RPBowNPCHolder();
+    RPBowNPCManager();
     //! @address 803155d4
-    virtual ~RPBowNPCHolder();
+    virtual ~RPBowNPCManager();
     
 
 private:
