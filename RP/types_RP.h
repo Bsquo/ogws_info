@@ -66,6 +66,8 @@ struct RPBoxBoxer;
 struct RPBoxBoxerEnergy;
 struct RPBoxBoxerCombo;
 struct RPBowResourceManager;
+struct RPBowNPC;
+struct RPBowNPCManager;
 struct RPGolMapObjBase;
 struct RPGolScene;
 struct RPGolFieldManager;
