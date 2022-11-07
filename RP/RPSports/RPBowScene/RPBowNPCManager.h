@@ -21,7 +21,7 @@ public:
     //! @address 80332a68
     void InitNPCs(UNKWORD, UNKWORD);
     //! @address 80332b34
-    RPBowNPCManager();
+    void Init();
     //! @address 803155d4
     virtual ~RPBowNPCManager();
     

@@ -35,7 +35,12 @@ public:
     //! @address 803325c4
     bool IsIdle();
     //! @address 80332a68
-    void Init(UNKTYPE *, UNKTYPE *, UNKTYPE *, s32 NPC_ID, UNKTYPE *, UNKTYPE *);
+    void Init(UNKTYPE *, UNKTYPE *, UNKTYPE *, s32 npc_ID, UNKTYPE *, UNKTYPE *);
+    /**
+     * @brief Appears to initialize sound-related elements?
+     * @address 80332678
+     */
+    void FUN_80332678(s32 npc_ID);
     /**
      * @brief The constructor appears to be inlined. It "starts" at 80332b74.
      */
